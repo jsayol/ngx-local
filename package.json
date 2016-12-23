@@ -1,7 +1,7 @@
 {
   "name": "ngx-local",
-  "version": "0.0.1-beta.2",
-  "description": "Structural directive for Angular 2.x+ to locally store a value",
+  "version": "0.0.1-beta.3",
+  "description": "Structural directive for Angular 2.x+ to locally store a value in a template input variable",
   "author": "Josep Sayol",
   "license": "MIT",
   "main": "dist/index.js",
