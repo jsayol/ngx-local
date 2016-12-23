@@ -1,6 +1,6 @@
 {
   "name": "ngx-local",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "Structural directive for Angular 2.x+ to locally store a value",
   "author": "Josep Sayol",
   "license": "MIT",
