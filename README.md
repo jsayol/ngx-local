@@ -1,10 +1,11 @@
 # ngx-local
 [![npm version](https://badge.fury.io/js/ngx-local.svg)](https://www.npmjs.com/package/ngx-local)
 
-Structural directive for Angular 2.x+ to locally store a value.
+[MIT License](LICENSE.txt)
 
-This is particularly useful when used in conjunction with the 'async' pipe.
+Structural directive for Angular 2.x+ to locally store a value in a template input variable.
 
+This is particularly useful when used in conjunction with the 'async' pipe:
 ```html
 <div *ngxLocal="httpUser$ | async; let user">
   <div>id: {{ user?.id }}</div>
@@ -13,8 +14,6 @@ This is particularly useful when used in conjunction with the 'async' pipe.
   <div>email: {{ user?.email }}</div>
 </div>
 ```
-
-[MIT License](LICENSE.txt)
 
 
 ## Installation
