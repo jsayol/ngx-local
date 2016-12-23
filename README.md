@@ -1,15 +1,20 @@
 # ngx-local
-*Status: Beta*
+[![npm version](https://badge.fury.io/js/ngx-local.svg)](https://www.npmjs.com/package/ngx-local)
 
 Structural directive for Angular 2.x+ to locally store a value.
 
 This is particularly useful when used in conjunction with the 'async' pipe.
 
-[MIT License](LICENSE.txt)
+```html
+<div *ngxLocal="httpUser$ | async; let user">
+  <div>id: {{ user?.id }}</div>
+  <div>name: {{ user?.name }}</div>
+  <div>username: {{ user?.username }}</div>
+  <div>email: {{ user?.email }}</div>
+</div>
+```
 
-## TO-DO
-- [x] Release!
-- [ ] **Add tests**
+[MIT License](LICENSE.txt)
 
 
 ## Installation
@@ -80,3 +85,7 @@ export interface User {
   email: string;
 }
 ```
+
+## TO-DO
+- [x] Release!
+- [ ] **Add tests**
