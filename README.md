@@ -1,5 +1,5 @@
 # ngx-local
-*Status: Alpha*
+*Status: Beta*
 
 Structural directive for Angular 2.x+ to locally store a value.
 
